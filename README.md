@@ -1,11 +1,6 @@
 # Creators
 
-<style>
-  a{
-    text-decoration:none;
-  }
-</style>
-<p>This work was developed by me and my colleague <a href="https://github.com/Prianjss">Priscila Anjos</a>. In this work, I did the Backend part and she did the Frontend part.</p>
+<p>This work was developed by me and my colleague <a href="https://github.com/Prianjss" style="text-decoration: none;">Priscila Anjos</a>. In this work, I did the Backend part and she did the Frontend part.</p>
 
 # Tecnologies 
 
