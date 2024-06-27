@@ -20,5 +20,25 @@
 
 # How to use
 
+<p>First, in your preferred IDE, you need to navigate to the "Backend" folder and search for the "Package.Json" file and then install the dependencies and dev-dependencies present there. Repeat the same process on the Frontend.</p>
+<p>To open the project in your browser, you need to navigate to the two folders (Backend and Frontend) in different terminals and run them at the same time</p>
+
+```
+If you use Vscode, just do it
+
+First terminal =
+
+cd Backend
+npm install
+npm run dev
+
+Second terminal =
+
+cd Frontend
+npm install
+npm run dev
+```
+
+
 
 
