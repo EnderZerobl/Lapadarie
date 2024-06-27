@@ -1,0 +1,133 @@
+.modal {
+  position: fixed;
+  inset: 0; 
+  background-color:#E5CF9480;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.8s ease-in-out, visibility 0s linear 0.8s;
+  overflow: hidden;
+  z-index: 999;
+  padding: 40px 20px 20px;
+
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(1);
+}
+
+.modal-enter-done {
+  opacity: 1;
+  pointer-events: auto;
+  transform: scale(1);
+}
+
+.modal-exit {
+  opacity: 0;
+}
+
+.conteudo-modal {
+  width: 40%;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+
+  background-color: #fff;
+}
+
+.conteudo-modal form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 15px;
+}
+
+.conteudo-modal p{
+  color: var(--primary);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.conteudo-modal input {
+  width: calc(100% - 50px);
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background: #F5F5F5;
+  border: none;
+  color: var(--primary);
+}
+
+.conteudo-modal input:focus {
+  outline: 2px solid var(--primary); 
+}
+.conteudo-modal input::placeholder  {
+  font-size: 12px;
+}
+
+.botoes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 25px;
+}
+
+.conteudo-modal button{
+  width: 260px;
+  height: 60px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.conteudo-modal button:hover{
+  transform: scale(1.05);
+}
+
+.conteudo-modal .enviar{
+  color: #fff;
+  background-color: var(--primary);
+  border:none;
+}
+
+.conteudo-modal .cancelar{
+  color: #DB1E1E;
+  background-color: #fff;
+  border: 1px solid #DB1E1E;
+}
+
+
+@media (max-width: 672px){
+
+  .conteudo-modal{
+    align-items: center;
+    width: 80%;
+  }
+
+  .conteudo-modal form{
+    width: 100%;
+  }
+
+  .conteudo-modal input{
+    height: 50px;
+  }
+
+  .botoes{
+    flex-direction: column;
+  }
+
+  .conteudo-modal button{
+    width: 100%;
+  }
+  
+
+}
