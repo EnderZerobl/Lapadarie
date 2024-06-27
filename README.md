@@ -16,9 +16,9 @@
 ![image](https://github.com/EnderZerobl/Lapadarie/assets/151107969/b5867563-49b8-4501-91c7-3697a6000c4e)
 
 <p>The bakery's website has the possibilities of adding people in the queue, deleting people already served, in addition to allowing the control of how many are in the queue, as well as the production of bread and the gain of the day</p>
-<p style="font-style:italic;">The website also has responsive versions for use on different screens</p>
+<p style="font-style:italic">The website also has responsive versions for use on different screens</p>
 
-#How to use
+# How to use
 
 
 
