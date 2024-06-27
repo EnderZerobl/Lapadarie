@@ -1,0 +1,31 @@
+.allpedidos{
+    background-color: var(--body);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pedidos{
+    width: 70%;
+    margin-top: 70px;
+}
+
+.addpedidos button{
+    cursor: pointer;
+    border: none;
+    background-color: var(--body);
+
+    color: var(--primary);
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+
+@media (max-width: 834px){
+    .pedidos{
+        width: 80%;
+        margin-top: 70px;
+    }
+
+}
